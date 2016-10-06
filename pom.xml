@@ -5,4 +5,16 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>JPA Company</name>
   <description>JPA application</description>
+  <dependencies>
+	  <dependency>
+	    <groupId>postgresql</groupId>
+	    <artifactId>postgresql</artifactId>
+	    <version>9.4.1208-jdbc42-atlassian-hosted</version>
+      </dependency>
+      <dependency>
+          <groupId>javax.persistence</groupId>
+          <artifactId>persistence-api</artifactId>
+          <version>1.0.2</version>
+      </dependency>
+  </dependencies>
 </project>
